@@ -1,9 +1,10 @@
-/vendor
-.env
-.DS_Store
-.idea/
 /node_modules
-/.grunt
-bower_components/
+bundle.js
+npm-debug.log
+.DS_Store
+
+# IntelliJ
+*.iml
+/.idea
 dist/
 .tmp/
