@@ -14,7 +14,6 @@ class SearchBar extends Component {
           type="text"
           onChange={this.onInputChange}
         />
-        Va
       </div>
       
     )
@@ -24,7 +23,6 @@ class SearchBar extends Component {
     this.setState({term: event.target.value});
     console.log(event.target.value);
     console.log(this.state);
-    // 'value of the input:' {this.state.term}
   }
 }
 
